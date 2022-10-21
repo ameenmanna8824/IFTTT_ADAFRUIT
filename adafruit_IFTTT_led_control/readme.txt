@@ -29,7 +29,16 @@ IF YOU WANT TO FIX THIS PERMANENTLY,IT IS ADVISED TO CONNECT ESP TO WIFI ROUTER
 4.Now click on your toggle switch and check if it works
 
 (In IFTTT)
-1.Create IFTTT account by signing up using Google.
+TO connect to Google Assistant Service:
+1.Download IFTTT app and Google Home app in your Smartphone and login using your Google account.
+2.Onve you open the Google Home app,click on the settings button .
+3.Now in the Settings menu click on "Works with Google" and Now seach for IFTTT service.
+4.Click on IFTTT service and click on continue and you might have to give in your Google account details again
+5.And Now you might get No Devices Connected.
+6.Once you get no devices , then try creating a neww Applet and your Google Assistant is now connected
+
+
+To create an APPLET:
 2.Click on create and create an applet
 3. If(THIS) THEN (THAT)
 	THIS -GOOGLE ASSISTANT
