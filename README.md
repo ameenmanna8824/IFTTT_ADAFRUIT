@@ -22,20 +22,25 @@ LINE 29:Adafruit_MQTT_Subscribe onoffbutton = Adafruit_MQTT_Subscribe(&mqtt, AIO
 In my case ,feed name is BANGALORE,you put your feed name
 
   AND MOST IMPORTANTLY ,IF EVER YOU ARE USING MOBILE HOTSPOT,TURN ON YOUR HOTSPOT
-IF YOU WANT TO FIX THIS PERMANENTLY,IT IS ADVISED TO CONNECT ESP TO WIFI ROUTER 
+IF YOU WANT TO FIX THIS PERMANENTLY,IT IS ADVISED TO CONNECT ESP TO WIFI ROUTER RATHER THAN HOTSPOT
+
+
 
 
 (In Adafruit.io)
 1.Create an Adafruit account.
-2.Create a new dashboard and in dashboard click on the blue button(CREATE a NEW BLOCK)
-3.Select the first Toggle switch>next >finish.
+2.Create a new dashboard and in dashboard click on the settings button and then (CREATE a NEW BLOCK)
+3.Select the first Toggle switch>next >select a feed >next > give button on value as 1 and button off value as 0 >finish.
 4.Now click on your toggle switch and check if it works
+
+
+
 
 (In IFTTT)
 1.Create IFTTT account by signing up using Google.
 2.Click on create and create an applet
 3. If(THIS) THEN (THAT)
-	THIS -GOOGLE ASSISTANT
+	THIS -GOOGLE ASSISTANT>Activate Scene > give a scene name
 	THAT -ADAFRUIT(VALUE TO SAVE SHOULD BE 1 FOR "ON APPLET")
 		      (VALUE TO SAVE SHOULD BE 0 FOR "OFF APPLET")
 
